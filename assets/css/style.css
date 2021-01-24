@@ -558,6 +558,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+.contact-list p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 #intro .play-btn::after {
   content: '';
   position: absolute;
