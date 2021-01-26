@@ -143,7 +143,6 @@
     }
   });
 
-  // Navigation active state on scroll
  
 
   // Gallery carousel (uses the Owl Carousel library)
