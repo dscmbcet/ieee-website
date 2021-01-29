@@ -490,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(6, 12, 34, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -527,7 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #00A5FF;
+  color:#fff;
 }
 
 @media (max-width: 991px) {
