@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   height: 90px;
-  padding: 25px 0;
+  padding: 15px 0;
   position: fixed;
   left: 0;
   top: 0;
@@ -1679,4 +1679,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .committee{
   font-family: 'Roboto', sans-serif;
   font-size: 20px; 
+}
+
+.kerala-section{
+  display: inline;
+  color: #fff;
+  font-size:large;
 }
