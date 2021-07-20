@@ -658,9 +658,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   margin: 10px;
   color: #fff;
-  -webkit-animation-delay: 0.8s;
+  background-color:#00A5FF ;
+  /* -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #00A5FF;
+  border: 2px solid #00A5FF; */
 }
 
 
@@ -671,8 +672,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .about-btn:hover {
-  background:#00A5FF;
-  color: #fff;
+  background:#fff;
+  color: #00A5FF;
 }
 
 @-webkit-keyframes pulsate-btn {
