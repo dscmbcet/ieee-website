@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 8px;
+  padding: 8px 5px;
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
