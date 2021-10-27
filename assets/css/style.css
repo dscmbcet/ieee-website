@@ -1051,6 +1051,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #hotels {
   padding: 60px 0;
+  word-wrap: break-word;
 }
 
 #hotels .hotel {
