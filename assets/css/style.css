@@ -1013,7 +1013,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-.download-schedule{
+.download-schedule {
   text-align: center;
   font-weight: bold;
   font-size: 2.5rem;
@@ -1775,4 +1775,74 @@ td {
 Marquee {
   font-size: 2rem;
   padding: 1rem;
+}
+
+/* ===================================
+          Tutorial Section
+  ==================================== */
+.tutorial-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tutorial-grid ul{
+  display: flex;
+  justify-content:left;
+}
+.tutorial-grid li{
+  list-style: none;
+  font-size: 1.25rem;
+  margin: 0rem 1rem;
+}
+
+.tutorial-card {
+  border: 1.5px solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  margin: 2rem 5rem;
+  border-radius: 2rem;
+  box-shadow: 8px 8px 24px -3px rgba(160, 231, 229, 0.8);
+  -webkit-box-shadow: 8px 8px 24px -3px rgba(160, 231, 229, 0.8);
+  -moz-box-shadow: 8px 8px 24px -3px rgba(160, 231, 229, 0.8);
+}
+
+.tutorial-speaker{
+  border-radius:50%;
+  max-width: 50%;
+}
+
+.description-speaker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.description-tutorial{
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+/* Responsive Tutorial Section */
+@media (max-width:800px){
+  .description-tutorial{
+    max-width: 100%;
+  }
+  .description-tutorial p{
+    display: none;
+  }
+  .description-tutorial h3{
+    display: none;
+  }
+
+  .description-tutorial h2{
+    display: block;
+    font-size: 1.5rem;
+  }
+  .tutorial-card{
+    flex-direction: column;
+  }
+
 }
