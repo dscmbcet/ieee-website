@@ -1825,6 +1825,18 @@ Marquee {
   max-width: 70%;
 }
 
+.register-tutorial{
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.register-tutorial:hover{
+  text-decoration: underline;
+  font-size: 2.25rem;
+}
+
 /* Responsive Tutorial Section */
 @media (max-width:800px){
   .description-tutorial{
