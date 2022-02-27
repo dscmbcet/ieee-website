@@ -1858,3 +1858,105 @@ Marquee {
   }
 
 }
+
+/* ====== Keynote Session ======= */
+.keynote-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keynote-card{
+  display: flex;
+  margin: 2rem;
+  max-width: 45%;
+  border-radius: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.keynote-info{
+  padding: 1rem;
+}
+
+.keynote-info img{
+ border-radius: 2rem;
+ max-width: 80%;
+}
+
+.keynote-info h3{
+  margin: 1.5rem 0rem;
+}
+
+.keynote-info h3:hover{
+  text-decoration: underline;
+}
+.keynote-info ul{
+  list-style: none;
+  font-size: 1rem;
+}
+
+.keynote-description{
+  padding: 1rem;
+  max-width: 60%;
+}
+
+.keynote-description p{
+  text-align: justify;
+}
+
+.read-btn{
+  background-color: #fff;
+  color: #00a5ff;
+  border:2px solid #00a5ff;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.read-btn:hover{
+  color: #fff;
+  background-color: #00a5ff;
+}
+
+#one-more{
+  display: none;
+}
+
+#two-more{
+  display: none;
+}
+
+#three-more{
+  display: none;
+}
+
+#four-more{
+  display: none;
+}
+
+#five-more{
+  display: none;
+}
+
+/* Responsive Keynote Session */
+@media (max-width:800px){
+  .keynote-container{
+    flex-direction: column;
+  }
+
+  .keynote-card{
+    flex-direction: column;
+    max-width: 100%;
+    margin: none;
+  }
+
+  .keynote-description{
+    max-width: 100%;
+    margin: none;
+  }
+  .keynote-description p,button{
+    display: none;
+  }
+
+  .keynote-description h3{
+    font-size: 1.25rem;
+  }
+}

@@ -37,6 +37,9 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
     <!-- =======================================================
         * Template Name: TheEvent - v2.3.0
         * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
@@ -109,8 +112,102 @@
     </div>
   </section><!-- End Intro Section -->
 
-  <h1 style="text-align: center;">Content will be updated soon!</h1>
+  <div class="keynote-container">
+    <div class="keynote-card">
+      <div class="keynote-info">
+        <img src="/assets/img/keynote/1.jpg" alt="">
+        <h3><a href="/speaker-details.html" title="Click to view Speaker Profile">Dr. Anurag Kumar</a></h3>
+        <h6>Honorary Professor, 
+          Indian Institute of Science
+         </h6>
+        <ul>
+          <li><i class="fa fa-calendar"> March 11,2022</i></li>
+          <li><i class="fa fa-clock-o"> 10:30AM to 11:30AM</i></li>
+        </ul>
+      </div>
+      <div class="keynote-description">
+        <h3>Cyber Physical Systems for Industry 4.0</h3>
+        <p>Practical implementations of Cyber Physical Systems, for example, in support of the Industry 4.0 vision, will typically involve substantial wireless networking, due to ease of deployment, retrofitting, expansion, and reconfiguration. In this talk, we will begin by providing an overview of the concept of Cyber Physical Systems, and the challenges of designing such systems over wireless networks. The wireless platform will be the Internet of Things, based on wireless networking standards (e.g., IEEE 802.11, IEEE 802.15.4, or the emerging 5G MMTC standards),<span id="one-dot">.....</span><span id="one-more">or proprietary wireless technologies. Unlike the in-building wireless networks for Internet access, IoT networks for Industrial CPS applications will need to be designed for providing quality of service, depending on the application. Further, the inference and control algorithms that run over these wireless networks (in support of the Cyber Physical System) will need to be designed keeping in mind the nonidealities of the wireless communication network.  In this talk, after introducing the topic, we will provide insights into the performance of a commonly used indoor wireless technology for IoT, and an approach to the design of such IoT networks. Then we will provide glimpses of some recent research issues in inference and control over such networks.</span></p>
+        <button onclick="functionOne()" class="read-btn" id="one-btn">Read more</button>
+      </div>
+    </div>
 
+
+    <div class="keynote-card">
+      <div class="keynote-info">
+        <img src="/assets/img/keynote/2.jpg" alt="">
+        <h3><a href="/speaker-details.html" title="Click to view Speaker Profile">Prof. Sivaji Chakravorti</a></h3>
+        <h6>
+          Professor, 
+          Jadavpur University & Former Director, NIT Calicut          
+         </h6>
+        <ul>
+          <li><i class="fa fa-calendar"> March 11,2022</i></li>
+          <li><i class="fa fa-clock-o"> 11:30AM to 12:30AM</i></li>
+        </ul>
+      </div>
+      <div class="keynote-description">
+        <h3>Estimation of Instantaneous Frequency of a Signal</h3>
+        <p>For many applications, it is essential to classify the signals based on their frequency components. Most commonly used tool for this purpose is Fourier Transform (FT), which has its limitations, particularly for analysis of non-stationary signals. To overcome these limitations, Short Time Fourier Transform (STFT) was proposed, which could give time-frequency representation of a signal. Later it was found that Wavelet Transform (WT) is a better tool for multi-resolution analysis. Developments in Continuous Wavelet Transform (CWT) was followed by developments in Discrete Wavelet Transform (DWT). <span id="two-dot">...</span> <span id="two-more">Researchers have also used S-Transform, which could be stated to be a variable window short time Fourier transform. This talk will provide insights into the above-mentioned analytical tools and then proceed to present another tool, viz. Empirical Mode Decomposition (EMD), for which computational burden is quite low and hence is a handy tool for real-time applications. Salient aspects of EMD like Sifting process and Intrinsic Mode Function will be explained. There will be detailed discussions on Real-life applications of EMD.</span></p>
+        <button onclick="functionTwo()" class="read-btn" id="two-btn">Read more</button>
+      </div>
+    </div>
+
+    <div class="keynote-card">
+      <div class="keynote-info">
+        <img src="/assets/img/keynote/3.jpg" alt="">
+        <h3><a href="/speaker-details.html" title="Click to view Speaker Profile">Prof. Maode Ma</a></h3>
+        <h6>Professor, College of Engineering, 
+          Qatar University.          
+         </h6>
+        <ul>
+          <li><i class="fa fa-calendar"> March 11,2022</i></li>
+          <li><i class="fa fa-clock-o"> 2:00PM to 3:00PM</i></li>
+        </ul>
+      </div>
+      <div class="keynote-description">
+        <h3>Security Issues in Named Data Networks</h3>
+        <p>Named Data Networking (NDN) is a prominent implementation of the vision of Information-Centric Networking. The NDN architecture adopts name-based routing and location independent data retrieval. It holds many important outstanding features including in-network caching, built-in multicast, mobility support, and native security mechanisms. The security functionality of the NDNs aims to secure the content rather than the communication channels. NDNs take use of data signatures, which permit users to retrieve any available piece of content no matter where it comes from as long as the signature can be verified. <span id="three-dot">...</span><span id="three-more">Although NDNs integrate security, it is still not immune to certain malicious attacks such as the Interest Flooding Attacks (IFAs). In this talk, the architecture and operations of the NDNs are introduced with focus on its security vulnerabilities. Some potential research directions will be suggested to promote the research activities in the field of network security.</span></p>
+        <button onclick="functionThree()" class="read-btn" id="three-btn">Read More</button>
+      </div>
+    </div>
+
+    <div class="keynote-card">
+      <div class="keynote-info">
+        <img src="/assets/img/keynote/4.jpg" alt="">
+        <h3><a href="/speaker-details.html" title="Click to view speaker profile">Dr. Akshay Kumar Rathore</a> </h3>
+        <h6>Professor, Singapore Institute of Technology
+         </h6>
+        <ul>
+          <li><i class="fa fa-calendar"> March 11,2022</i></li>
+          <li><i class="fa fa-clock-o"> 5:00PM to 6:00PM</i></li>
+        </ul>
+      </div>
+      <div class="keynote-description">
+        <h3>Low Device Switching Frequency Control of Multilevel Inverters for the Medium Voltage High Power Industrial Drives</h3>
+        <p>To ensure high efficiency for high power applications, it is better to raise voltage level than current level to reduce conduction losses. However, owing to limitation on blocking voltage of available devices, multilevel inverter topologies have been introduced. To limit the switching losses of semiconductor devices in multilevel inverters at medium voltage high power, low device witching frequency modulation is desired. Low device switching frequency modulation results into higher total harmonic distortion <span id="four-dot">...</span><span id="four-more"> of inverter output that requires large filter size. A novel Synchronous Optimal Pulse Width (SOP) modulation technique is developed and implemented to reduce the device switching frequency down to 50 Hz without compromising on harmonic distortion and filter requirements. It limits switching losses of semiconductor devices and reduces thermal and cooling requirements. Common mode voltage is a major concern in open-end winding machines operated from common dc link inverters and require a bulky common mode inductor to suppress the common mode currents in machine developed due to common mode voltage. A modified SOP modulation technique is developed and implemented to eliminate the common mode current and eliminate the need of bulky and costly common mode inductor. A simple off-line method limits the device switching losses, total harmonic distortion as well as set common mode current to zero.</span></p>
+        <button onclick="functionFour()" class="read-btn" id="four-btn">Read more</button>
+      </div>
+    </div>
+
+    <div class="keynote-card">
+      <div class="keynote-info">
+        <img src="/assets/img/keynote/5.jpg" alt="">
+        <h3><a href="/speaker-details.html" title="Click to view the speaker profile">Dr. Sharul Kamal Abdul Rahim</a></h3>
+        <h6>Professor, Universiti Teknologi Malaysia
+         </h6>
+        <ul>
+          <li><i class="fa fa-calendar"> March 12,2022</i></li>
+          <li><i class="fa fa-clock-o"> 10:00AM to 11:00AM</i></li>
+        </ul>
+      </div>
+      <div class="keynote-description">
+        <h3>Antenna and Switch Beamforming Network for 5G/B5G Communication Systems</h3>
+        <p>The development of wireless communication systems has significantly changed our lifestyles in recent decades. To support potential wireless applications, such as multimedia devices, Internet of Things, and intelligent transportation systems, an advanced mobile system with a gigabit per second data rate is highly desired. To realize this gigabit data rate, while overcoming high loss in high-frequency bands, several promising techniques, including high-gain array antennas and multibeam antennas are likely to be adopted. The massive Multiple Input and Multiple Output (MIMO) and millimeter wave technologies are major enabler of the 5G and Beyond 5G (B5G) communication systems. <span id="five-dot">...</span><span id="five-more">These technologies are expected to help meet the high bandwidth demands of users and devices. To achieve this, massive MIMO and millimeter wave technology are being deployed in ultra-dense and small-cell networks by using high-gain array antennas and multibeam antennas.  Hence, beamforming network is a promising technology that can be used to fulfil these next generation Wireless Communication System requirements of improving signal reception and data throughput by focusing radiating signal to a specific direction. Beamforming can be classified into two main categories namely adaptive and switched beamforming. Adaptive beamforming schemes can change the beamforming pattern dynamically to enhance the reception of the desired signal while mitigating the interference signal. While in switched beamforming approach, the beam pattern is changed according to the received signal. Switched beamforming network such as Butler Matrix increases the system capacity and provides higher signal to interference ratio, consequently enhancing the overall system performance. In this keynote, the recent research trends in Antenna and Switch Beamforming Network for 5G and B5G networks will be presented. This includes the many advantages, types of fabrication techniques and open issues and future research direction.</span></p>
+        <button onclick="functionFive()" class="read-btn" id="five-btn">Read more</button>
+      </div>
+    </div>
+  </div>
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="footer-top">
@@ -125,7 +222,7 @@
          
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h3>Contact Us</h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
@@ -195,5 +292,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/keynote.js"></script>
   </body>
 </html>
